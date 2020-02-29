@@ -2853,15 +2853,6 @@ extern char * ultoa(char * buf, unsigned long val, int base);
 extern char * ftoa(float f, int * status);
 # 10 "TEMPSENSOR.c" 2
 
-# 1 "./PANTALLALCD.h" 1
-# 51 "./PANTALLALCD.h"
-void lcd_cmd(unsigned char x);
-void lcd_dwr(unsigned char x);
-void lcd_msg(unsigned char *c);
-void lcd_ready(void);
-void lcd_lat(void);
-void inicializacion(void);
-# 11 "TEMPSENSOR.c" 2
 
 # 1 "./TEMPSENSOR.h" 1
 # 12 "TEMPSENSOR.c" 2

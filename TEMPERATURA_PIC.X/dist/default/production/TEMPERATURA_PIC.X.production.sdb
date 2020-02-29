@@ -25,18 +25,6 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"18 C:\Users\50254\Documents\GitHub\lab5\TEMPERATURA_PIC.X\PANTALLALCD.c
-[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
-"26
-[v _lcd_lat lcd_lat `(v  1 e 1 0 ]
-"31
-[v _lcd_ready lcd_ready `(v  1 e 1 0 ]
-"48
-[v _lcd_dwr lcd_dwr `(v  1 e 1 0 ]
-"56
-[v _lcd_msg lcd_msg `(v  1 e 1 0 ]
-"61
-[v _inicializacion inicializacion `(v  1 e 1 0 ]
 "79 C:\Users\50254\Documents\GitHub\lab5\TEMPERATURA_PIC.X\TEMP_PIC.c
 [v _main main `(v  1 e 1 0 ]
 "107
@@ -95,12 +83,6 @@
 [v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
 "3449
 [v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
-"4196
-[v _RD5 RD5 `VEb  1 e 0 @69 ]
-"4199
-[v _RD6 RD6 `VEb  1 e 0 @70 ]
-"4202
-[v _RD7 RD7 `VEb  1 e 0 @71 ]
 "54 C:\Users\50254\Documents\GitHub\lab5\TEMPERATURA_PIC.X\TEMP_PIC.c
 [v _check check `uc  1 e 1 0 ]
 "57
@@ -134,12 +116,7 @@
 {
 "105
 } 0
-"61 C:\Users\50254\Documents\GitHub\lab5\TEMPERATURA_PIC.X\PANTALLALCD.c
-[v _inicializacion inicializacion `(v  1 e 1 0 ]
-{
-"67
-} 0
-"107 C:\Users\50254\Documents\GitHub\lab5\TEMPERATURA_PIC.X\TEMP_PIC.c
+"107
 [v _LOOP LOOP `(v  1 e 1 0 ]
 {
 "152
@@ -156,38 +133,6 @@
 "18
 [v strcat@to to `*.4uc  1 a 1 2 ]
 "26
-} 0
-"56 C:\Users\50254\Documents\GitHub\lab5\TEMPERATURA_PIC.X\PANTALLALCD.c
-[v _lcd_msg lcd_msg `(v  1 e 1 0 ]
-{
-[v lcd_msg@c c `*.26uc  1 p 2 3 ]
-"59
-} 0
-"48
-[v _lcd_dwr lcd_dwr `(v  1 e 1 0 ]
-{
-[v lcd_dwr@x x `uc  1 a 1 wreg ]
-[v lcd_dwr@x x `uc  1 a 1 wreg ]
-[v lcd_dwr@x x `uc  1 a 1 2 ]
-"54
-} 0
-"18
-[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
-{
-[v lcd_cmd@x x `uc  1 a 1 wreg ]
-[v lcd_cmd@x x `uc  1 a 1 wreg ]
-[v lcd_cmd@x x `uc  1 a 1 2 ]
-"24
-} 0
-"31
-[v _lcd_ready lcd_ready `(v  1 e 1 0 ]
-{
-"46
-} 0
-"26
-[v _lcd_lat lcd_lat `(v  1 e 1 0 ]
-{
-"30
 } 0
 "4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\itoa.c
 [v _itoa itoa `(*.4uc  1 e 1 0 ]
